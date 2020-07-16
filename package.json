@@ -1,0 +1,23 @@
+{
+  "name": "excel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IFadeev/web-excel.git"
+  },
+  "keywords": [
+    "js",
+    "javascript"
+  ],
+  "author": "Fadeev Ivan <fadeev327@ya.ru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IFadeev/web-excel/issues"
+  },
+  "homepage": "https://github.com/IFadeev/web-excel#readme"
+}
