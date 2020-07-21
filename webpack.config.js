@@ -48,7 +48,7 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HTMLWebpackPlugin({
-      template: 'index.html',
+      template: './index.html',
       minify: {
           removeComments: isProd,
           collapseWhitespace: isProd
@@ -89,7 +89,15 @@ module.exports = {
           test: /\.js$/, 
           exclude: /node_modules/, 
           use: jsLoaders(),
+        },
+        {
+          test: /\.html$/i,
+          loader: 'html-loader',
+        },
+        {
+          test: /\.pug$/,
+          loader: 'pug-loader'
         }
-    ],
+    ]
   },
 }
